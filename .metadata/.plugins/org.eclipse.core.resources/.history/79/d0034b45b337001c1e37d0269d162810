@@ -1,0 +1,237 @@
+package jgp;
+
+import prolog.logic.*;
+import prolog.kernel.*;
+import prolog.core.*;
+import java.math.*;
+import java.util.Random;
+
+public class GPWorld extends BigMath implements Stateful, Runnable {
+
+	// public static Random rand = prolog.logic.Tools.getRandom();
+	public static Random rand = new Random();
+
+	public int bits = 8;
+
+	public int roots = 4;
+
+	public int CREATE = 5;
+
+	public int MUTATE = 15;
+
+	public int IMITATE = 90;
+
+	public int DIE = 100;
+
+	public int maxhops=5;
+
+	public long maxgen=100;
+
+	public static void run_bg() {
+		Runnable R = new GPWorld();
+		Thread T = new Thread(R);
+		T.start();
+	}
+
+	public GPWorld() {
+		Inds = new ObjectQueue();
+	}
+
+	public ObjectQueue Inds;
+
+	public Ind create() {
+		Ind I = new Ind(bits,maxhops);
+		Inds.enq(I);
+		return I.isPerfect() ? I : null;
+	}
+
+	public Ind mutate() {
+		int i = rand.nextInt(Inds.size());
+		Ind ind = (Ind) Inds.elementAt(i);
+		return ind.mutate();
+	}
+
+	public Ind imitate() {
+		int i = rand.nextInt(Inds.size());
+		int j = rand.nextInt(Inds.size());
+		if (i == j)
+			return null;
+		Ind I = (Ind) Inds.elementAt(i);
+		Ind J = (Ind) Inds.elementAt(j);
+		int betterIJ = I.compareTo(J);
+		if (betterIJ < 0) {
+			return I.imitate(J);
+		} else if (betterIJ > 0) {
+			return J.imitate(I);
+		} else { // if equal
+			return null;
+		}
+
+	}
+
+	public void die() {
+		int i = rand.nextInt(Inds.size());
+		Ind I = (Ind) Inds.elementAt(i);
+		I.die();
+	}
+
+	public void run() {
+		Ind perfect = evolve();
+		show();
+		if (null != perfect)
+			perfect.show("PERFECT");
+	}
+
+	public Ind evolve() {
+		Ind perfect = null;
+		
+		for (int i = 0; i < roots; i++) {
+			perfect = create();
+			if (null != perfect)
+				return perfect;
+		}
+
+		for (long n = 0; n < maxgen; n++) {
+			int dice = rand.nextInt(100);
+			System.out.println("dice=" + dice);
+			if (dice < CREATE) {
+				perfect = create();
+			} else if (dice < MUTATE) {
+				perfect = mutate();
+			} else if (dice < IMITATE) {
+				perfect = imitate();
+			} else {
+				die();
+			}
+			if (null != perfect)
+				break;
+		}
+		
+		return perfect;
+
+	}
+
+	public String toString() {
+		StringBuffer buf = new StringBuffer("[");
+		for (int i = 0; i < Inds.size(); i++) {
+			if (i > 0)
+				buf.append(',');
+			buf.append(Inds.elementAt(i));
+		}
+		buf.append("]");
+		return buf.toString();
+	}
+
+	public void show() {
+		System.out.println(this.toString());
+	}
+}
+
+class Ind extends BigMath implements Comparable {
+	private BigInteger B;
+	private int bits;
+	private int hops;
+	
+
+	public Ind(int bits,int hops) {
+		this.bits=bits;
+		this.hops=hops;
+		this.B = new BigInteger(bits, GPWorld.rand);
+		show("CREATE");
+	}
+
+	public int hashCode() {
+		return this.B.hashCode();
+	}
+
+	public boolean equals(Object other) {
+		if (other instanceof Ind)
+			return this.B.equals(((Ind) other).B);
+		else
+			return false;
+	}
+
+	public int compareTo(Object other) {
+		Ind O = (Ind) other;
+		return this.fitness() - O.fitness();
+	}
+
+	public int closeness() {
+		if (isDead())
+			return -1;
+		return bits-this.B.bitCount();
+	}
+
+	public Ind mutate() {
+		if (isDead())
+			return null;
+		int l = B.bitLength();
+		if (l > 0) {
+			int n = GPWorld.rand.nextInt(l);
+			B = B.flipBit(n);
+			show("MUTATE");
+			
+		}
+		if(isPerfect()) return this;
+		age();
+		return null;
+	}
+
+	public Ind imitate(Ind other) {
+		if (isDead() || other.isDead())
+			return null;
+		// BigInteger C=this.B.and(other.B);
+		other.show("OTHER=");
+		show("BEFORE");
+		BigInteger D = this.B.xor(other.B);
+		int d = D.getLowestSetBit();
+		// System.out.println("d=" + d + ",D=" + D.toString(2));
+		// this.B = this.B.min(other.B);
+		this.B = this.B.flipBit(d);
+		show("AFTER=");
+		if(isPerfect()) return this;
+		age();
+		return null;
+	}
+
+	public void age() {
+	  if(--hops<=0) die();
+	}
+	
+	public void die() {
+		show("DEAD==");
+		this.hops = 0;
+	}
+
+	public boolean isDead() {
+		return hops<=0;
+	}
+
+	public boolean isPerfect() {
+		return zero.equals(this.B);
+	}
+
+	public String toString() {
+		String s;
+		if (isDead()) s="#";
+		else s=" ";
+		StringBuffer b=new StringBuffer(bits);
+		b.append(s);
+		b.append("h");
+		b.append(hops);
+		b.append("f");
+		b.append(fitness());
+		b.append("_");
+		int n=bits-B.bitLength();
+		while(--n >=0) {
+			b.append('0');
+		}
+		b.append(B.toString(2));
+		return b.toString();
+	}
+
+	public void show(String op) {
+		System.out.println(op + "=>" + this);
+	}
+
+}

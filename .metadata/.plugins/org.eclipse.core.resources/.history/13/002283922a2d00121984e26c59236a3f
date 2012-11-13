@@ -1,0 +1,71 @@
+// Init.java
+
+package prolog.kernel;
+import prolog.logic.*;
+import java.util.Date;
+
+final class Init {
+ 
+  private final static int XBRAND_MAJOR=12;
+  private final static int XBRAND_FROM=1999;
+  private final static String XBRAND_NAME="Jinni Java-based Prolog Compiler";
+  private final static String XBRAND_COMP="Paul Tarau";
+  private final static String XBRAND_WEB="";
+  public final static int XBRAND_START_IDE=1;
+
+  final static int XBRAND_MINOR = 02;
+  private static final int year = 2012;
+  private static final int month = 11;
+  private static final int day = 12;
+  private static final long expireAfter = 0; //if 0 runs for ever
+  private static final long days = daysLeft(year, month, day); // expiration starts here
+  private static boolean validated = false;
+  private static final int check = XBRAND_MINOR + 13 * day + month;
+
+  public static final String getPrologName() {
+    return XBRAND_NAME;
+  }
+
+  public static final String getOsName() {
+    return osname;
+  }
+
+  public static String userdir = null;
+  public static String osname = null;
+
+  static final void greeting(int verbosity) {
+    if(JavaIO.isApplet) return;
+    String jinni = XBRAND_NAME;
+    String jyear = year + "";
+    userdir = System.getProperty("user.dir"); if (null == userdir) userdir = ".";
+    osname = System.getProperty("os.name"); if (null == osname) osname = "?";
+    String java = System.getProperty("java.version"); if (null == java) java = "";
+    String jvendor = System.getProperty("java.vendor"); if (null == jvendor) jvendor = "";
+    if ("".equals(jvendor) || ("Microsoft Corp.".equals(jvendor))) {
+      jinni = XBRAND_NAME;
+      java = "J#" + java;
+    }
+    else {
+      //System.setProperty("java.rmi.server.codebase","file:/bin/prolog.jar"); //fails on J#
+    }
+  
+    //JavaIO.println(System.getProperties().toString()); // $$
+    
+    String home="";
+    if(!"".equals(XBRAND_WEB)) {
+      home="Support: support@" + XBRAND_WEB + JavaIO.NL +
+      "Home: http://www." + XBRAND_WEB + JavaIO.NL;
+    }
+    String s = JavaIO.NL + "Starting " + jinni + " " + jyear + " version " + XBRAND_MAJOR + "." +
+        ((XBRAND_MINOR < 10) ? "0" : "") +
+         XBRAND_MINOR + JavaIO.NL +
+         "Copyright (C) " + XBRAND_COMP + " " + XBRAND_FROM + "-" + year + JavaIO.NL +
+         home+
+        "Detected " + jvendor + " " + java + " Java, "+osname+ JavaIO.NL +
+        "User Dir " + userdir + JavaIO.NL;
+    if (verbosity>0)
+      JavaIO.println(s);
+  }
+
+}
+

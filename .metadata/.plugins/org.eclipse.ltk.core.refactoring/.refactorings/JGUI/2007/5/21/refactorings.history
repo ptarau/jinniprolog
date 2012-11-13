@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<session version="1.0">
+<refactoring comment="Rename resource '/JGUI/jgui/JinniText' to 'JinniText.java'&#13;&#10;- Original element: 'JinniText'" description="Rename resource 'JinniText'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="jgui/JinniText" name="JinniText.java" stamp="1179887801843" version="1.0"/>
+<refactoring comment="Rename resource '/JGUI/jgui/J' to 'JinniFileDialog'&#13;&#10;- Original element: 'J'" description="Rename resource 'J'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="jgui/J" name="JinniFileDialog" stamp="1179954361436" version="1.0"/>
+<refactoring comment="Rename resource '/JGUI/jgui/JinniFileDialog' to 'JinniFileDialog.java'&#13;&#10;- Original element: 'JinniFileDialog'" description="Rename resource 'JinniFileDialog'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="jgui/JinniFileDialog" name="JinniFileDialog.java" stamp="1179954371733" version="1.0"/>
+</session>

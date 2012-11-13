@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.StringReader"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="rli.RLIAdaptor"/>
+<fullyQualifiedTypeName name="prolog.logic.Prolog"/>
+<fullyQualifiedTypeName name="vm.extensions.ConsoleIO"/>
+</qualifiedTypeNameHistroy>

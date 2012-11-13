@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="UpdateAndInstallDialog">
+		<item key="AvailableViewType" value="2"/>
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="SelectedTab" value="1"/>
+		<item key="DIALOG_FONT_NAME" value="1|Lucida Grande|11.0|0|CARBON|1|Lucida Grande"/>
+		<item key="DIALOG_HEIGHT" value="552"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="949"/>
+		<item key="ShowLatestVersionsOnly" value="true"/>
+		<item key="HideInstalledContent" value="false"/>
+	</section>
+</section>

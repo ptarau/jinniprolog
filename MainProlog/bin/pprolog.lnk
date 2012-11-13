@@ -1,0 +1,1 @@
+18#"\Windows\evm.exe" -ms10m -Djeode.evm.console.local.keep=TRUE -Djeode.evm.console.local.paging=TRUE -cp "\iPAQ File Store\pocketProlog\prolog.jar" prolog.kernel.Main "\iPAQ File Store\pocketProlog\prolog.jar"

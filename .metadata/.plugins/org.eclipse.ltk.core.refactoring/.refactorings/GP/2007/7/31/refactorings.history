@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit 'jgp.EvalAndXor.java' to 'EvalAndXOR.java'&#13;&#10;- Original element: 'jgp.EvalAndXor.java'&#13;&#10;- Renamed element: 'jgp.EvalAndXOR.java'" description="Rename compilation unit 'EvalAndXor.java'" flags="589830" id="org.eclipse.jdt.ui.rename.compilationunit" input="/&lt;jgp{EvalAndXor.java" name="EvalAndXOR.java" stamp="1185836182597" version="1.0"/>
+</session>

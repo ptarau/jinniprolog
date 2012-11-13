@@ -1,0 +1,1 @@
+javadoc -public -use -author -d doc3d -windowtitle "Prolog3D Class Documentation" -footer "<a href=http://www.binnetcorp.com>Other Prolog and Java Software from BinNet<a>" -link http://logic.csci.unt.edu/tarau/doc/jinni/jdoc prolog3d

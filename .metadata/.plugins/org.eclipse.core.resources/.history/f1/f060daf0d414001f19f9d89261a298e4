@@ -1,0 +1,32 @@
+package prolog.core;
+
+import prolog.kernel.Machine;
+import prolog.logic.Interact;
+import vm.logic.LogicInteractor;
+
+public class LogicConnector {
+
+  public static LogicInteractor E;
+  
+  public static Object ask_lprolog(Machine M) {
+    try {
+      if(null==E) {
+        vm.logic.Interact.PROLOG_JAR_FILE="/bin/prolog.jar";
+        E=LogicInteractor.new_interactor((String)null);
+      }
+      Object[] bundle=M.getBundle();
+      //service.write_to(bundle);
+      //Object in=service.read_from();
+      //bundle=(Object[])in;
+      bundle=LogicInteractor.bundle_call(E,bundle);
+      if(null==bundle) return "no";
+      M.setBundle(bundle);
+      return "yes";
+    }
+    catch(Exception e) {
+      Interact.errmes("error in ask_lprolog",e);
+      E=LogicInteractor.new_interactor(E);
+      return "no";
+    }
+ }
+}

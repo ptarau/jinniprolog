@@ -1,0 +1,1 @@
+go:-println(hello).

@@ -1,0 +1,1 @@
+prolog.bat "mcompile(build)" "call(halt)"

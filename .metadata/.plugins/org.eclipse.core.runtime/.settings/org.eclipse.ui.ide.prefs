@@ -1,0 +1,7 @@
+PROBLEMS_FILTERS_MIGRATE=true
+REFRESH_WORKSPACE_ON_STARTUP=true
+SWITCH_PERSPECTIVE_ON_PROJECT_CREATION=always
+eclipse.preferences.version=1
+platformState=1348250309629
+quickStart=false
+tipsAndTricks=true

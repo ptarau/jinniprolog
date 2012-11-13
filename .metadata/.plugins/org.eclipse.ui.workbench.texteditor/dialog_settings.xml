@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="263" key="DIALOG_WIDTH"/>
+		<item value="311" key="DIALOG_Y_ORIGIN"/>
+		<item value="395" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wholeword"/>
+		<item value="XBRAND_WEB" key="selection"/>
+		<list key="findhistory">
+			<item value="XBRAND_WEB"/>
+			<item value="110"/>
+			<item value="11"/>
+			<item value="JHOME"/>
+			<item value="$JHOME"/>
+			<item value="JHOME/bin"/>
+			<item value="HOME"/>
+			<item value="$HOME"/>
+		</list>
+		<list key="replacehistory">
+			<item value="../MainProlog"/>
+			<item value="JHOME"/>
+			<item value="$JHOME"/>
+			<item value="../../"/>
+			<item value="Paul Tarau "/>
+			<item value=""/>
+			<item value="$HOME/bin"/>
+			<item value="code"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="287" key="DIALOG_Y_ORIGIN"/>
+		<item value="326" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

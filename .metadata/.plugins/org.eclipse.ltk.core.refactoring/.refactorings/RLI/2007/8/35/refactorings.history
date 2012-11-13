@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<session version="1.0">
+<refactoring comment="Rename field 'innerServers' in 'rli.RLIAdaptor' to 'InnerServers'&#13;&#10;- Original element: 'rli.RLIAdaptor.innerServers'&#13;&#10;- Renamed element: 'rli.RLIAdaptor.InnerServers'&#13;&#10;- Update references to refactored element&#13;&#10;- Update textual occurrences in comments and strings" delegate="false" deprecate="true" description="Rename field 'innerServers'" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/&lt;rli{RLIAdaptor.java[RLIAdaptor^innerServers" name="InnerServers" references="true" setter="false" stamp="1188404679198" textual="true" version="1.0"/>
+</session>

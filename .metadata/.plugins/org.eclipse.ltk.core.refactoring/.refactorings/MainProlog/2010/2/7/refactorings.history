@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MainProlog/prolog/core/Connector.java&apos; to &apos;LogicConnector.java&apos;" description="Rename resource &apos;Connector.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="prolog/core/Connector.java" name="LogicConnector.java" stamp="1265643630666" updateReferences="true"/>
+</session>

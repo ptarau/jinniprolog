@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="25" version="2.0">
+<workbenchAdvisor/>
+<window height="1051" width="1736" x="258" y="96">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="134" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="ProverEditor.actions" itemType="typeToolBarContribution" x="140" y="22"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="32" y="23"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="76" y="23"/>
+<coolItem id="br.usp.ime.prolog.actions.PrologActionSet" itemType="typeToolBarContribution" x="31" y="23"/>
+<coolItem id="br.usp.ime.prolog.editor.PrologEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="net.sf.eclipsefp.common.ui.configurator.actionSet" itemType="typeToolBarContribution" x="32" y="23"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
+<coolItem id="org.eclipse.dltk.tcl.ui.debug.consoleActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="scala.texteditor.actionset" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.cs3.pdt.internal.editors.PLEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1269918748407" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Javafier.java" partName="Javafier.java" path="/Users/tarau/Desktop/sit/openJinni/MainProlog/prolog/core/Javafier.java" title="Javafier.java" tooltip="MainProlog/prolog/core/Javafier.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/prolog/core/Javafier.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="330" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="makejinni" partName="makejinni" path="/Users/tarau/Desktop/sit/openJinni/MainProlog/build/makejinni" title="makejinni" tooltip="MainProlog/build/makejinni" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/build/makejinni"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="890" selectionTopPixel="1248"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Top.java" partName="Top.java" path="/Users/tarau/Desktop/sit/openJinni/MainProlog/prolog/kernel/Top.java" title="Top.java" tooltip="MainProlog/prolog/kernel/Top.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/prolog/kernel/Top.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8408" selectionTopPixel="1116"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Init.java" partName="Init.java" path="/Users/tarau/Desktop/sit/openJinni/MainProlog/prolog/kernel/Init.java" title="Init.java" tooltip="MainProlog/prolog/kernel/Init.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/prolog/kernel/Init.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="183" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>&#x0A;<filter element="*.aux" isEnabled="false"/>
+<filter element="*.log" isEnabled="false"/>
+<filter element="*.toc" isEnabled="false"/>
+<filter element="*.dvi" isEnabled="false"/>
+<filter element="*.ps" isEnabled="false"/>
+<filter element="*.bbl" isEnabled="false"/>
+<filter element="*.blg" isEnabled="false"/>
+<filter element="*.ind" isEnabled="false"/>
+<filter element="*.ilg" isEnabled="false"/>
+<filter element="*.lot" isEnabled="false"/>
+<filter element="*.lof" isEnabled="false"/>
+<filter element="*.class" isEnabled="false"/>
+<filter element=".*" isEnabled="false"/>
+</filters>
+<expanded>&#x0A;<element path="/MainProlog"/>
+<element path="/MainProlog/build"/>
+<element path="/PROLOG3D"/>
+</expanded>
+<selection>&#x0A;<element path="/MainProlog/build"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="747"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="org.cs3.jtransformer.internal.actions"/>
+<alwaysOnActionSet id="jtransformer.analysis.actionSet"/>
+<alwaysOnActionSet id="jtransformer.copyclipboard.actionSet"/>
+<alwaysOnActionSet id="JTransformerFactbaseView.actionSet1"/>
+<alwaysOnActionSet id="org.cs3.jtransformer.pefnavigator.actionSet"/>
+<alwaysOnActionSet id="org.cs3.jtransformer.writer.actions"/>
+<alwaysOnActionSet id="org.cs3.pdt.internal.actions"/>
+<alwaysOnActionSet id="scala.texteditor.actionset"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_in_time id="org.eclipse.ui.views.ResourceNavigator" time="1302700890732"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1242" ratioRight="414" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3212121" ratioLeft="318" ratioRight="672" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7704545" ratioLeft="1017" ratioRight="303" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2ab8bb" ratio="0.74959743" ratioLeft="931" ratioRight="311" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.49935484" ratioLeft="387" ratioRight="388" relationship="4" relative="org.eclipse.ui.internal.ViewStack@2ab8bb">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@70202892" ratio="0.84683543" ratioLeft="669" ratioRight="121" relationship="4" relative="left">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Init.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/build/build.pl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/build/makejinni"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/logic/Interact.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/psrc/kernel/pshell.pl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/core/Javafier.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Top.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Init.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/core/Graph.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Init.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Top.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/logic/LogicEngine.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/psrc/README.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/README.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Top.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Init.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RenAgent/radaptor/RenSetWalker.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/psrc/kernel/pshell.pl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/core/Javafier.java"/>
+</editors>
+<item historyLabel="Init.java" index="0">
+<position info="not_deleted" x="456" y="0"/>
+</item>
+<item historyLabel="build.pl" index="1">
+<position info="not_deleted" x="3399" y="6"/>
+</item>
+<item historyLabel="Init.java" index="0">
+<position info="not_deleted" x="979" y="0"/>
+</item>
+<item historyLabel="makejinni" index="2">
+<position info="not_deleted" x="445" y="0"/>
+</item>
+<item historyLabel="Interact.java" index="3">
+<position info="not_deleted" x="349" y="0"/>
+</item>
+<item historyLabel="makejinni" index="2">
+<position info="not_deleted" x="445" y="0"/>
+</item>
+<item historyLabel="pshell.pl" index="4">
+<position info="not_deleted" x="1267" y="0"/>
+</item>
+<item historyLabel="Javafier.java" index="5">
+<position info="not_deleted" x="3978" y="0"/>
+</item>
+<item historyLabel="Top.java" index="6">
+<position info="not_deleted" x="8771" y="0"/>
+</item>
+<item historyLabel="Init.java" index="7">
+<position info="not_deleted" x="979" y="0"/>
+</item>
+<item historyLabel="makejinni" index="2">
+<position/>
+</item>
+<item historyLabel="Graph.java" index="8">
+<position info="not_deleted" x="10267" y="0"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="1766" y="2"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="1062" y="0"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position/>
+</item>
+<item historyLabel="Top.java" index="10">
+<position info="not_deleted" x="3278" y="0"/>
+</item>
+<item historyLabel="Top.java" index="10">
+<position info="not_deleted" x="8408" y="0"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="1766" y="2"/>
+</item>
+<item historyLabel="LogicEngine.java" index="11">
+<position info="not_deleted" x="23133" y="0"/>
+</item>
+<item historyLabel="LogicEngine.java" index="11">
+<position info="not_deleted" x="4577" y="15"/>
+</item>
+<item historyLabel="LogicEngine.java" index="11">
+<position info="not_deleted" x="4631" y="33"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="457" y="0"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="792" y="0"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="1653" y="0"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="1876" y="4"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="128" y="0"/>
+</item>
+<item historyLabel="Init.java" index="9">
+<position info="not_deleted" x="1766" y="2"/>
+</item>
+<item historyLabel="LogicEngine.java" index="11">
+<position info="not_deleted" x="4577" y="15"/>
+</item>
+<item historyLabel="LogicEngine.java" index="11">
+<position info="not_deleted" x="4631" y="33"/>
+</item>
+<item historyLabel="makejinni" index="2">
+<position info="not_deleted" x="1628" y="0"/>
+</item>
+<item historyLabel="README.txt" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="README.txt" index="13">
+<position info="not_deleted" x="1164" y="0"/>
+</item>
+<item historyLabel="makejinni" index="2">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="Top.java" index="14">
+<position info="not_deleted" x="8408" y="0"/>
+</item>
+<item historyLabel="Init.java" index="15">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="RenSetWalker.java" index="16"/>
+<item historyLabel="Init.java" index="15">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="makejinni" index="2">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="Init.java" index="15">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="Init.java" index="15">
+<position info="not_deleted" x="470" y="0"/>
+</item>
+<item historyLabel="Init.java" index="15">
+<position/>
+</item>
+<item historyLabel="pshell.pl" index="17">
+<position info="not_deleted" x="378" y="0"/>
+</item>
+<item historyLabel="Init.java" index="15">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="makejinni" index="2">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="Top.java" index="14">
+<position info="not_deleted" x="8408" y="0"/>
+</item>
+<item historyLabel="Init.java" index="15">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item active="true" historyLabel="Javafier.java" index="18">
+<position info="not_deleted" x="481" y="8"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README.txt" tooltip="MainProlog/README.txt">
+<persistable path="/MainProlog/README.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README.txt" tooltip="MainProlog/psrc/README.txt">
+<persistable path="/MainProlog/psrc/README.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Graph.java" tooltip="MainProlog/prolog/core/Graph.java">
+<persistable path="/MainProlog/prolog/core/Graph.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" name="pshell.pl" tooltip="MainProlog/psrc/kernel/pshell.pl">
+<persistable path="/MainProlog/psrc/kernel/pshell.pl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JMain.java" tooltip="MainProlog/build/JMain.java">
+<persistable path="/MainProlog/build/JMain.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" name="build.pl" tooltip="MainProlog/build/build.pl">
+<persistable path="/MainProlog/build/build.pl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wam.java" tooltip="MainProlog/prolog/kernel/Wam.java">
+<persistable path="/MainProlog/prolog/kernel/Wam.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Init.java" tooltip="MainProlog/prolog/kernel/Init.java">
+<persistable path="/MainProlog/prolog/kernel/Init.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Top.java" tooltip="MainProlog/prolog/kernel/Top.java">
+<persistable path="/MainProlog/prolog/kernel/Top.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" name="sys.pl" tooltip="MainProlog/psrc/kernel/sys.pl">
+<persistable path="/MainProlog/psrc/kernel/sys.pl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="makemainprolog" tooltip="MainProlog/build/makemainprolog">
+<persistable path="/MainProlog/build/makemainprolog"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="makejinni" tooltip="MainProlog/build/makejinni">
+<persistable path="/MainProlog/build/makejinni"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Javafier.java" tooltip="MainProlog/prolog/core/Javafier.java">
+<persistable path="/MainProlog/prolog/core/Javafier.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogicConnector.java" tooltip="MainProlog/prolog/core/LogicConnector.java">
+<persistable path="/MainProlog/prolog/core/LogicConnector.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintCanvas3D.java" tooltip="PROLOG3D/prolog3d/PrintCanvas3D.java">
+<persistable path="/PROLOG3D/prolog3d/PrintCanvas3D.java"/>
+</file>
+</mruList>
+</workbench>

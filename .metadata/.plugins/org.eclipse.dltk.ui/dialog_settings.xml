@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="completion_proposal_size">
+	</section>
+	<section name="PrologDLTKSearchPage">
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="1" key="HISTORY_SIZE"/>
+		<section name="HISTORY0">
+			<item value="1" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="term_codes" key="pattern"/>
+			<item value="false" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,72 @@
+echo MAKING PROLOG BYTECODE
+set JHOME = "../MainProlog"
+export JHOME
+pushd .
+cd ../psrc
+bp bpco.pl "and(jboot,halt)"
+popd
+#
+echo MAKING JAVA PART
+pushd .
+cd ..
+rm -f bin/prolog/*/*.class
+rm -f bin/build/*.class
+javac -cp ".:lib/jline.jar" -O -g -d bin prolog/*/*.java
+javac -cp ".:lib/jline.jar" -O -g -d bin build/JMain.java
+#rm -f bin/prolog/*/*.class
+#javac -cp ".:lib/jline.jar" -O -g -d bin prolog/*/*.java
+cd bin
+echo TESTING IN BIN
+pwd
+java -cp ".:../lib/jline.jar" prolog.kernel.Main "and(println(ok),halt)"
+jar -cvmf manifest.txt prolog.jar prolog progs vprogs classlib agentlib
+
+mv -f prolog.jar ..
+popd
+
+echo JAR CREATED
+pwd
+ls -l ../prolog.jar
+
+#
+# RLI
+#
+echo MAKING RLI
+pushd .
+cd ../../RLI
+pwd
+echo $JHOME
+
+rm -f rli/*.class
+javac -classpath ".:$JHOME/prolog.jar" rli/*.java
+jar -uvf $JHOME/prolog.jar rli/*.class
+rm -f rli/*.class
+popd
+#
+# JGUI
+#
+echo MAKING GUI
+pushd .
+cd ../../JGUI
+rm -f jgui/*.class
+javac -classpath ".:$JHOME/prolog.jar" jgui/*.java
+jar -uvf $JHOME/prolog.jar jgui/*.class
+rm -f jgui/*.class
+popd
+#
+# AGUI
+#
+echo MAKING AGUI
+pushd .
+cd ../../AGUI
+rm -f agentgui/*.class
+javac -classpath ".:$JHOME/prolog.jar" agentgui/*.java
+jar -uvf $JHOME/prolog.jar agentgui/*.class
+rm -f agentgui/*.class
+popd
+
+# testing
+echo TESTING
+java -cp "$JHOME/jline.jar:$HOME/bin/prolog.jar" prolog.kernel.Main "and(println(working),halt)"
+
+# @echo DONE

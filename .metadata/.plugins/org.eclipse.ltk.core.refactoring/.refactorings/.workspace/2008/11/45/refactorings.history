@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;MainProlog/bin/build/JMain.class&apos;" deleteContents="false" description="Delete resource &apos;MainProlog/bin/build/JMain.class&apos;" element1="/MainProlog/bin/build/JMain.class" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1226085847864"/>
+</session>

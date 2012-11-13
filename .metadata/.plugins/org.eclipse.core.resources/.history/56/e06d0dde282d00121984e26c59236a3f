@@ -1,0 +1,91 @@
+echo MAKING PROLOG BYTECODE
+cd ..
+pushd .
+
+cd psrc
+bp bpco.pl "and(jboot,halt)"
+cd ..
+
+#
+echo MAKING JAVA PART
+rm -f bin/prolog/*/*.class
+rm -f bin/build/*.class
+javac -cp ".:lib/jline.jar" -O -g -d bin prolog/*/*.java
+javac -cp ".:bin" -O -g -d bin build/JMain.java
+
+#####
+echo GENERATING Java image of Prolog libraries from wam.bp
+cd build
+java -cp "../bin" build.JMain
+cd ..
+
+rm -f bin/prolog/*/*.class
+
+javac -cp ".:lib/jline.jar" -O -g -d bin prolog/*/*.java
+
+cd bin
+cp ../lib/jline.jar prolog.jar
+
+echo TESTING IN BIN
+java -cp ".:../lib/jline.jar" prolog.kernel.Main "and(println(ok),halt)"
+
+echo ADDING to JAR MainProlog
+pwd
+jar -umf manifest.txt prolog.jar prolog progs vprogs classlib agentlib
+exit
+
+mv -f prolog.jar ..
+
+echo JAR CREATED
+
+ls -l ../prolog.jar
+
+
+cd build
+
+#
+# RLI
+#
+echo MAKING RLI
+pushd .
+cd ../../RLI
+pwd
+ls -l "../MainProlog/prolog.jar"
+
+rm -f rli/*.class
+javac -classpath ".:../MainProlog/prolog.jar" rli/*.java
+jar -uvf ../MainProlog/prolog.jar rli/*.class
+rm -f rli/*.class
+popd
+#
+# JGUI
+#
+echo MAKING GUI
+pushd .
+cd ../../JGUI
+rm -f jgui/*.class
+javac -classpath ".:../MainProlog/prolog.jar" jgui/*.java
+jar -uvf ../MainProlog/prolog.jar jgui/*.class
+rm -f jgui/*.class
+popd
+#
+# AGUI
+#
+echo MAKING AGUI
+pushd .
+cd ../../AGUI
+rm -f agentgui/*.class
+javac -classpath ".:../MainProlog/prolog.jar" agentgui/*.java
+jar -uvf ../MainProlog/prolog.jar agentgui/*.class
+rm -f agentgui/*.class
+popd
+
+# testing
+echo TESTING
+java -cp "../lib/jline.jar:../prolog.jar" prolog.kernel.Main "and(println(working),halt)"
+
+# installing
+
+cp ../lib/jline.jar ../prolog.jar $HOME/bin
+
+# @echo DONE

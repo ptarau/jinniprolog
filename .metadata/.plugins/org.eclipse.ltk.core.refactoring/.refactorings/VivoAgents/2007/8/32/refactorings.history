@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<session version="1.0">
+<refactoring comment="Rename resource '/VivoAgents/agent2.pro' to 'agent_class2.pro'&#13;&#10;- Original element: 'agent2.pro'" description="Rename resource 'agent2.pro'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="agent2.pro" name="agent_class2.pro" stamp="1186317886223" version="1.0"/>
+<refactoring comment="Rename resource '/VivoAgents/agent3.pro' to 'agent_class3.pro'&#13;&#10;- Original element: 'agent3.pro'" description="Rename resource 'agent3.pro'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="agent3.pro" name="agent_class3.pro" stamp="1186318012076" version="1.0"/>
+</session>
