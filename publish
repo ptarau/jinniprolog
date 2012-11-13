@@ -1,3 +1,5 @@
+mv .metadata ..
 git add . -A
 git commit -m "CHANGE: $1"
 git push origin master
+mv ../.metadata .
