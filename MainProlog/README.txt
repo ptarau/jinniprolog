@@ -1,7 +1,7 @@
 The Prolog compiler and runtime system are in directory
 MainProlog.
 
-You can start running Prolog there right away by typing 
+You can start running Prolog there, right away, by typing 
 
 jinni
 
@@ -11,7 +11,7 @@ jinni.bat
 
 on OS X + Linux/Unix or Windows.
 
-The script makejinni in directory build regenerates 
+The script "makejinni" in directory "build" regenerates 
 the system by compiling various Java and Prolog components.
 
 Here is the directory for MainProlog structure.
@@ -21,11 +21,8 @@ Here is the directory for MainProlog structure.
 ¦   +---classlib => Object Oriented Prolog classes
 ¦   +---progs    => classic Prolog programs
 ¦   +---vprogs   => visual programs
+|   + user guide and demos
 +---build  scripts to generate various components
-+---doc  
-|   +---jdoc     ==> Java class documentation
-¦   +---papers   ==> Related papers and projects
-¦   +---tutorial ==> Introduction to Prolog
 +---prolog  JAVA SOURCES
 ¦   +---kernel 
 |   +---core 
