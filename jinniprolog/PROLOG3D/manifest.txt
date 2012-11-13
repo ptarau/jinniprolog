@@ -1,0 +1,3 @@
+Main-Class: prolog3d/Prolog3D
+Class-Path: ./
+Name: prolog3d/

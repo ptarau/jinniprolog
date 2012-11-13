@@ -1,0 +1,1 @@
+prolog3d.bat "broker:start" "new(agent3d,_)"

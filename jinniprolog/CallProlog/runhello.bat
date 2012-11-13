@@ -1,0 +1,1 @@
+java -cp ".;../prolog.jar;/bin/prolog.jar" MyHello %1 %2 %3 %4 %5 %6 %7

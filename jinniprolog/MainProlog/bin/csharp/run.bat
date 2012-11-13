@@ -1,0 +1,1 @@
+bin\Debug\PrologAdaptor.exe

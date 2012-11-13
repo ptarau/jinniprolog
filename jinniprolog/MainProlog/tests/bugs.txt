@@ -1,0 +1,111 @@
+409
+  DCG expansion is not applied to consult/1
+
+408
+  bug 1.2<3.4 => fixed, still needs error mes if ops ar not numbers
+  
+  changed default tokenizer to return either symbols or floats
+  leave Prolog comments and quotes unchanged
+  
+  -expected need for configurable tokenizer
+  
+407
+  fixed unification bug in name
+
+40?
+  added command line processing for kpc
+
+3??
+  added clause-as-a-string tokenizer
+
+398
+
+fixed
+
+det_append("abc",A,Xs),append(B,Xs,"dddabceee").
+det_append("abc",X,Xs),Xs=[A,B,C|d].
+
+397
+-- vars are confused on output by Java toplevel
+
+| ?- dcg_def("a b"),word(X),space,dcg_val(AA)
+AA=[32,98]
+X=const(a)
+; for more, <enter> to stop:
+Time: 0.48 sec, threads=1
+| ?- dcg_def("a b"),word(X),space,dcg_val(AA)
+X=[32,98]
+AA=const(a)
+; for more, <enter> to stop:
+
+-- 388
+ numbervars(f(X,X),A),swrite(A,R).
+
+-- version 358 - added comparisons and floats
+
+kpc:
+
+main does not initiate program start - feature?
+command line args are not transmitted
+float computations still not passed automatically to interp
+
+bad predicates (collisions) are not properly indicated when compiling
+
+-- version 74ok, Jab 14
+
+remaning known bugs:
+- for(I,1,1000),new_engine(X,for(X,1,10),M),stop_engine(M),fail.
+
+- bfmeta induces memory leak
+- bootstraps but still cannot handle multiple successive comments
+
+-- version 70 - fixed
+
+?- findall(s(X),member(X,[1,2,3]),Xs).
+X=_281
+Xs=[1,2,3]
+
+---
+:- and %..<space>..% not yet handeld by sread
+
+- slowness of push/3 pop/3 etc. => O(N^2) because of complete copying
+  of persistent list representing the stack
+
+- impact: op + current_op, findall, bestof
+
+==> a) cleanest solution: add external stack datatype, provide push/3 pop/3 etc
+    as fast builtins
+    op(...) should be ok, as it is based on handcrafted default_op and
+    assumes no svaing of current ops to *.bp file
+
+==> b)simple alternative: emulate them at source level in terms of def/3 set/3 etc
+    advantage: same code runs in C and Java implementations
+
+- bug in knight - bboard seems to forget bindings on backtracking
+
+-1 bug: FIXED Dec 24,1999 !!!
+
+C and Java based WAMs with w2a are identical. The Java loader seems to
+load negative variables in strange PUT_CONSTANT code which looks like a VAR.
+
+the problem only happens when compiling to memory, wam code is ok
+
+to memory:
+
+#17996  <17996> op:11/MOVE_REG X2,A1
+#17997  <17997> op:9/PUT_CONSTANT X1 =_/0
+
+to file, part of kernel:
+
+#14816  <14816> op:11/MOVE_REG X2,A1
+#14817  <14817> op:9/PUT_CONSTANT X1 =-1
+
+it seems that for things like -1 either
+LOAD_x + IN(...,..) fails before add_instr
+and therefore add_instr adds the wrong instruction
+
+the bug comes from -1 being both INTEGER and COMPOUND...
+
+=> sol: reorganize logic
+=> redefine COMPOUND
+=> fix tags borrowing from latest BinProlog

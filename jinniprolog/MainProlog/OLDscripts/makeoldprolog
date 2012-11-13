@@ -1,0 +1,30 @@
+echo making prolog bytecode
+pushd .
+cd ../psrc
+bp bpco.pl "and(jboot,halt)"
+popd
+echo making java part
+pushd .
+cd ..
+rm -f bin/prolog/*/*.class
+rm -f bin/build/*.class
+cp ../../code/components/lprolog.jar .
+javac -cp ".:lprolog.jar" -O -g -d bin prolog/*/*.java
+javac -cp ".:lprolog.jar" -O -g -d bin build/JMain.java
+cd bin
+sudo cp wam.bp /bin
+java -cp ".:../lprolog.jar" build.JMain
+sudo rm -f /bin/wam.bp
+popd
+pushd .
+cd ..
+rm -f bin/prolog/*/*.class
+javac -cp ".:lprolog.jar" -O -g -d bin prolog/*/*.java
+cd bin
+java -cp ".:../lprolog.jar" prolog.kernel.Main "and(println(ok),halt)"
+jar -cvmf manifest.txt prolog.jar prolog progs vprogs classlib agentlib
+mv -f prolog.jar $HOME/bin/oldprolog.jar
+ls -l $HOME/bin/oldprolog.jar
+rm -f bin/prolog/*/*.class
+rm -f ../lprolog.jar
+popd
