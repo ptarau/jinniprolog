@@ -1,2 +1,0 @@
-compile
-java -Xmx512M -classpath ".:/bin/prolog.jar:j3d-vrml97.jar" prolog.kernel.Main "qcompile(prolog3d)"

@@ -1,4 +1,0 @@
-Main-Class: prolog/kernel/Main
-Class-Path: ./
-Name: prolog/kernel/
-Sealed: true

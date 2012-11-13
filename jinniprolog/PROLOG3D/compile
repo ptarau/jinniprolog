@@ -1,2 +1,0 @@
-rm -f prolog3d/*.class
-javac -source 1.5 -target 1.5 -classpath ".:/bin/prolog.jar:j3d-vrml97.jar" *.java  prolog3d/*.java

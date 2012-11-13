@@ -1,1 +1,0 @@
-java -Xmx1024M -Dj3d.rend=d3d -Djava.rmi.server.codebase=file:/bin/prolog.jar -classpath ".;/bin/prolog.jar;/bin/prolog3d.jar;prolog.jar;prolog3d.jar;j3d-vrml97.jar" prolog.kernel.Main "/bin/prolog.jar" "add_to_path('/bin')" "qcompile(prolog3d)" %1 %2 %3 %4 %5 %6

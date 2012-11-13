@@ -1,3 +1,0 @@
-#Fri Nov 23 09:48:34 CST 2007
-org.rubypeople.rdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="40,org.rubypeople.rdt.launching.JRubyVMType13,1195401348991">\r\n<vmType id\="org.rubypeople.rdt.launching.JRubyVMType">\r\n<vm id\="1195401348991" name\="org.jruby_1.0.1.4620p" path\="C\:\\software\\eclipse\\plugins\\org.jruby_1.0.1.4620p">\r\n<libraryLocations>\r\n<libraryLocation src\="C\:/software/eclipse/plugins/org.jruby_1.0.1.4620p/lib/ruby/site_ruby/1.8"/>\r\n<libraryLocation src\="C\:/software/eclipse/plugins/org.jruby_1.0.1.4620p/lib/ruby/1.8"/>\r\n</libraryLocations>\r\n</vm>\r\n</vmType>\r\n</vmSettings>\r\n
-eclipse.preferences.version=1

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;MainProlog/bin/bREADME.txt&apos; to &apos;README.txt&apos;" description="Rename resource &apos;bREADME.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="bin/bREADME.txt" name="README.txt" stamp="1352809735416" updateReferences="true"/>
-</session>

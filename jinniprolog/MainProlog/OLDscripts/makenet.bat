@@ -1,1 +1,0 @@
-bp build call(makenet) call(halt)

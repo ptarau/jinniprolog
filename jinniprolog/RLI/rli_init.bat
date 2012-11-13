@@ -1,2 +1,0 @@
-rem START rmiregistry
-rmiregistry

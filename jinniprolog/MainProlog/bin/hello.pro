@@ -1,2 +1,0 @@
-go:-println(hello).
-
