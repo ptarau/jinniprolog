@@ -1,1 +1,0 @@
-18#"\Windows\evm.exe" -Djeode.evm.console.local.keep=TRUE -Djeode.evm.console.local.paging=TRUE -cp "\Storage Card\software\pocketProlog\prolog.jar" prolog.kernel.Main "\Storage Card\software\pocketProlog\prolog.jar"
