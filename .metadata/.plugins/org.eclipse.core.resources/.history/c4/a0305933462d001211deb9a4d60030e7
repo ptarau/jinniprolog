@@ -1,7 +1,5 @@
-The Prolog compiler and runtime system are in directory
-MainProlog.
-
-You can start running Prolog there right away by typing 
+Please read the JinniUserGuide.html file in directory "bin",
+where you can start running Prolog right away by typing 
 
 jinni
 
@@ -44,6 +42,4 @@ CallProlog - an interface to call Jinni from Java
 GP - a simple Genetic Programming framework
 PROLOG3D - a Java3D interface to Jinni.
 
-Please read the JinniUserGuide.html file in directory "bin"
-for more information.
  

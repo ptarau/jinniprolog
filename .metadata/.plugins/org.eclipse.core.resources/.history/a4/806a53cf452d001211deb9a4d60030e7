@@ -1,18 +1,9 @@
-The Prolog compiler and runtime system are in directory
-MainProlog.
+Please read the JinniUserGuide.html file in directory "bin",
+where you can start running Prolog right away by typing 
 
-You can start running Prolog there right away by typing 
+jinni 
 
-jinni
-
-or
-
-jinni.bat
-
-on OS X + Linux/Unix or Windows.
-
-The script makejinni in directory build regenerates 
-the system by compiling various Java and Prolog components.
+on Windows and equivalent commands on Linux/Unix.
 
 Here is the directory structure (* marks components
 only available with Source Edition).
@@ -44,6 +35,4 @@ CallProlog - an interface to call Jinni from Java
 GP - a simple Genetic Programming framework
 PROLOG3D - a Java3D interface to Jinni.
 
-Please read the JinniUserGuide.html file in directory "bin"
-for more information.
  
