@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="25" version="2.0">
 <workbenchAdvisor/>
-<window height="1051" width="1736" x="258" y="96">
+<window height="746" width="1024" x="80" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -23,7 +23,7 @@
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="scala.texteditor.actionset" itemType="typeToolBarContribution" x="32" y="22"/>
@@ -44,13 +44,14 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Javafier.java" partName="Javafier.java" path="/Users/tarau/Desktop/sit/openJinni/MainProlog/prolog/core/Javafier.java" title="Javafier.java" tooltip="MainProlog/prolog/core/Javafier.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Javafier.java" partName="Javafier.java" path="/Users/tarau/Desktop/sit/jinniprolog/MainProlog/prolog/core/Javafier.java" title="Javafier.java" tooltip="MainProlog/prolog/core/Javafier.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/prolog/core/Javafier.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="330" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="741" selectionTopPixel="238"/>
 </editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="makejinni" partName="makejinni" path="/Users/tarau/Desktop/sit/openJinni/MainProlog/build/makejinni" title="makejinni" tooltip="MainProlog/build/makejinni" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/build/makejinni"/>
@@ -64,6 +65,10 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/prolog/kernel/Init.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="183" selectionTopPixel="0"/>
 </editor>
+<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="README.txt" partName="README.txt" path="/Users/tarau/Desktop/sit/jinniprolog/MainProlog/README.txt" title="README.txt" tooltip="MainProlog/README.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/README.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="892" selectionTopPixel="348"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
@@ -74,7 +79,8 @@
 </view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
-<filters>&#x0A;<filter element="*.aux" isEnabled="false"/>
+<filters>
+<filter element="*.aux" isEnabled="false"/>
 <filter element="*.log" isEnabled="false"/>
 <filter element="*.toc" isEnabled="false"/>
 <filter element="*.dvi" isEnabled="false"/>
@@ -88,12 +94,6 @@
 <filter element="*.class" isEnabled="false"/>
 <filter element=".*" isEnabled="false"/>
 </filters>
-<expanded>&#x0A;<element path="/MainProlog"/>
-<element path="/MainProlog/build"/>
-<element path="/PROLOG3D"/>
-</expanded>
-<selection>&#x0A;<element path="/MainProlog/build"/>
-</selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
@@ -110,7 +110,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -178,7 +178,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
@@ -202,7 +202,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.3212121" ratioLeft="318" ratioRight="672" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.41164857" ratioLeft="417" ratioRight="596" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7704545" ratioLeft="1017" ratioRight="303" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
@@ -258,10 +258,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RenAgent/radaptor/RenSetWalker.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/psrc/kernel/pshell.pl"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/core/Javafier.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/README.txt"/>
 </editors>
-<item historyLabel="Init.java" index="0">
-<position info="not_deleted" x="456" y="0"/>
-</item>
 <item historyLabel="build.pl" index="1">
 <position info="not_deleted" x="3399" y="6"/>
 </item>
@@ -404,8 +402,11 @@
 <item historyLabel="Init.java" index="15">
 <position info="not_deleted" x="183" y="0"/>
 </item>
-<item active="true" historyLabel="Javafier.java" index="18">
+<item historyLabel="Javafier.java" index="18">
 <position info="not_deleted" x="481" y="8"/>
+</item>
+<item active="true" historyLabel="README.txt" index="19">
+<position info="not_deleted" x="126" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
