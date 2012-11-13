@@ -13,8 +13,8 @@
 	<section name="DialogBounds_SearchDialog">
 		<item value="600" key="DIALOG_WIDTH"/>
 		<item value="300" key="DIALOG_Y_ORIGIN"/>
-		<item value="341" key="DIALOG_X_ORIGIN"/>
 		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="341" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="Search">
@@ -48,8 +48,8 @@
 	<section name="DialogBounds_ReplaceDialog2">
 		<item value="351" key="DIALOG_WIDTH"/>
 		<item value="700" key="DIALOG_Y_ORIGIN"/>
-		<item value="354" key="DIALOG_X_ORIGIN"/>
 		<item value="217" key="DIALOG_HEIGHT"/>
+		<item value="354" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Tahoma|8|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="TextSearchPage">
@@ -58,51 +58,6 @@
 		<item value="false" key="SEARCH_DERIVED"/>
 		<item value="12" key="HISTORY_SIZE"/>
 		<section name="HISTORY11">
-			<item value="false" key="isRegExSearch"/>
-			<item value="ConsoleIO" key="textPattern"/>
-			<item value="0" key="scope"/>
-			<item value="false" key="ignoreCase"/>
-			<list key="fileNamePatterns">
-				<item value="*.bat"/>
-				<item value="*.java"/>
-				<item value="*.pl"/>
-				<item value="*.pro"/>
-			</list>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="EXTENSIONS">
-			<item value="*.bat, *.java, *.pl, *.pro" key="0"/>
-		</section>
-		<section name="HISTORY10">
-			<item value="false" key="isRegExSearch"/>
-			<item value="Prolog source version" key="textPattern"/>
-			<item value="0" key="scope"/>
-			<item value="false" key="ignoreCase"/>
-			<list key="fileNamePatterns">
-				<item value="*.bat"/>
-				<item value="*.java"/>
-				<item value="*.pl"/>
-				<item value="*.pro"/>
-			</list>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY9">
-			<item value="false" key="isRegExSearch"/>
-			<item value="110" key="textPattern"/>
-			<item value="0" key="scope"/>
-			<item value="false" key="ignoreCase"/>
-			<list key="fileNamePatterns">
-				<item value="*.bat"/>
-				<item value="*.java"/>
-				<item value="*.pl"/>
-				<item value="*.pro"/>
-			</list>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY8">
 			<item value="false" key="isRegExSearch"/>
 			<item value="11" key="textPattern"/>
 			<item value="0" key="scope"/>
@@ -116,35 +71,11 @@
 			<list key="workingSets">
 			</list>
 		</section>
-		<section name="HISTORY5">
-			<item value="false" key="isRegExSearch"/>
-			<item value="version" key="textPattern"/>
-			<item value="0" key="scope"/>
-			<item value="false" key="ignoreCase"/>
-			<list key="fileNamePatterns">
-				<item value="*.bat"/>
-				<item value="*.java"/>
-				<item value="*.pl"/>
-				<item value="*.pro"/>
-			</list>
-			<list key="workingSets">
-			</list>
+		<section name="EXTENSIONS">
+			<item value="*.bat, *.java, *.pl, *.pro" key="1"/>
+			<item value="*.bat, *.java, *.pl, *.pro *.html" key="0"/>
 		</section>
-		<section name="HISTORY4">
-			<item value="false" key="isRegExSearch"/>
-			<item value="source version" key="textPattern"/>
-			<item value="0" key="scope"/>
-			<item value="false" key="ignoreCase"/>
-			<list key="fileNamePatterns">
-				<item value="*.bat"/>
-				<item value="*.java"/>
-				<item value="*.pl"/>
-				<item value="*.pro"/>
-			</list>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY7">
+		<section name="HISTORY10">
 			<item value="false" key="isRegExSearch"/>
 			<item value="get_prolog_version" key="textPattern"/>
 			<item value="0" key="scope"/>
@@ -158,7 +89,7 @@
 			<list key="workingSets">
 			</list>
 		</section>
-		<section name="HISTORY6">
+		<section name="HISTORY9">
 			<item value="false" key="isRegExSearch"/>
 			<item value="ersion" key="textPattern"/>
 			<item value="0" key="scope"/>
@@ -172,7 +103,21 @@
 			<list key="workingSets">
 			</list>
 		</section>
-		<section name="HISTORY2">
+		<section name="HISTORY8">
+			<item value="false" key="isRegExSearch"/>
+			<item value="version" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.bat"/>
+				<item value="*.java"/>
+				<item value="*.pl"/>
+				<item value="*.pro"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY5">
 			<item value="false" key="isRegExSearch"/>
 			<item value="Users" key="textPattern"/>
 			<item value="0" key="scope"/>
@@ -186,35 +131,7 @@
 			<list key="workingSets">
 			</list>
 		</section>
-		<section name="HISTORY3">
-			<item value="false" key="isRegExSearch"/>
-			<item value="javafy" key="textPattern"/>
-			<item value="0" key="scope"/>
-			<item value="false" key="ignoreCase"/>
-			<list key="fileNamePatterns">
-				<item value="*.bat"/>
-				<item value="*.java"/>
-				<item value="*.pl"/>
-				<item value="*.pro"/>
-			</list>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY0">
-			<item value="false" key="isRegExSearch"/>
-			<item value="1212" key="textPattern"/>
-			<item value="0" key="scope"/>
-			<item value="false" key="ignoreCase"/>
-			<list key="fileNamePatterns">
-				<item value="*.java"/>
-				<item value="*.pro"/>
-				<item value="*.pl"/>
-				<item value="*.bat"/>
-			</list>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY1">
+		<section name="HISTORY4">
 			<item value="false" key="isRegExSearch"/>
 			<item value="bin/wam.bp" key="textPattern"/>
 			<item value="0" key="scope"/>
@@ -228,14 +145,98 @@
 			<list key="workingSets">
 			</list>
 		</section>
-	</section>
-	<section name="SearchDialog.ScopePart">
-		<item value="0" key="scope"/>
+		<section name="HISTORY7">
+			<item value="false" key="isRegExSearch"/>
+			<item value="source version" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.bat"/>
+				<item value="*.java"/>
+				<item value="*.pl"/>
+				<item value="*.pro"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY6">
+			<item value="false" key="isRegExSearch"/>
+			<item value="javafy" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.bat"/>
+				<item value="*.java"/>
+				<item value="*.pl"/>
+				<item value="*.pro"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY2">
+			<item value="false" key="isRegExSearch"/>
+			<item value="BinNet" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.bat"/>
+				<item value="*.java"/>
+				<item value="*.pl"/>
+				<item value="*.pro *.html"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY3">
+			<item value="false" key="isRegExSearch"/>
+			<item value="1212" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.bat"/>
+				<item value="*.java"/>
+				<item value="*.pl"/>
+				<item value="*.pro"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY0">
+			<item value="false" key="isRegExSearch"/>
+			<item value=".NET" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.java"/>
+				<item value="*.pro *.html"/>
+				<item value="*.pl"/>
+				<item value="*.bat"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item value="false" key="isRegExSearch"/>
+			<item value="Vivomind" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="false" key="ignoreCase"/>
+			<list key="fileNamePatterns">
+				<item value="*.bat"/>
+				<item value="*.java"/>
+				<item value="*.pl"/>
+				<item value="*.pro *.html"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
 	</section>
 	<section name="ReplaceDialog2">
 		<list key="replace_with">
 			<item value="Machine"/>
 			<item value="rli_start_proxy_to"/>
 		</list>
+	</section>
+	<section name="SearchDialog.ScopePart">
+		<item value="0" key="scope"/>
 	</section>
 </section>

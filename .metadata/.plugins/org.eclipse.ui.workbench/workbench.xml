@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="25" version="2.0">
+<workbench progressCount="7" version="2.0">
 <workbenchAdvisor/>
-<window height="746" width="1024" x="80" y="22">
+<window height="737" width="1206" x="80" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -22,14 +22,15 @@
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="98" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="scala.texteditor.actionset" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.cs3.pdt.internal.editors.PLEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -44,14 +45,13 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Javafier.java" partName="Javafier.java" path="/Users/tarau/Desktop/sit/jinniprolog/MainProlog/prolog/core/Javafier.java" title="Javafier.java" tooltip="MainProlog/prolog/core/Javafier.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Javafier.java" partName="Javafier.java" path="/Users/tarau/Desktop/sit/jinniprolog/MainProlog/prolog/core/Javafier.java" title="Javafier.java" tooltip="MainProlog/prolog/core/Javafier.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/prolog/core/Javafier.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="741" selectionTopPixel="238"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="741" selectionTopPixel="141"/>
 </editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="makejinni" partName="makejinni" path="/Users/tarau/Desktop/sit/openJinni/MainProlog/build/makejinni" title="makejinni" tooltip="MainProlog/build/makejinni" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/build/makejinni"/>
@@ -64,10 +64,6 @@
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Init.java" partName="Init.java" path="/Users/tarau/Desktop/sit/openJinni/MainProlog/prolog/kernel/Init.java" title="Init.java" tooltip="MainProlog/prolog/kernel/Init.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/prolog/kernel/Init.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="183" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="README.txt" partName="README.txt" path="/Users/tarau/Desktop/sit/jinniprolog/MainProlog/README.txt" title="README.txt" tooltip="MainProlog/README.txt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MainProlog/README.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="892" selectionTopPixel="348"/>
 </editor>
 </editors>
 <views>
@@ -94,6 +90,13 @@
 <filter element="*.class" isEnabled="false"/>
 <filter element=".*" isEnabled="false"/>
 </filters>
+<expanded>
+<element path="/MainProlog"/>
+<element path="/MainProlog/bin"/>
+</expanded>
+<selection>
+<element path="/MainProlog/bin/README.txt"/>
+</selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
@@ -110,7 +113,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -239,15 +242,7 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Init.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/build/build.pl"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/build/makejinni"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/logic/Interact.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/psrc/kernel/pshell.pl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/core/Javafier.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Top.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Init.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/core/Graph.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Init.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/kernel/Top.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/logic/LogicEngine.java"/>
@@ -259,154 +254,160 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/psrc/kernel/pshell.pl"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/core/Javafier.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/README.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/bin/bREADME.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/bin/README.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MainProlog/bin/aREADME.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/build/build.pl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" path="/MainProlog/tests/pbug.pl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MainProlog/prolog/core/Javafier.java"/>
 </editors>
-<item historyLabel="build.pl" index="1">
-<position info="not_deleted" x="3399" y="6"/>
-</item>
-<item historyLabel="Init.java" index="0">
-<position info="not_deleted" x="979" y="0"/>
-</item>
-<item historyLabel="makejinni" index="2">
-<position info="not_deleted" x="445" y="0"/>
-</item>
-<item historyLabel="Interact.java" index="3">
-<position info="not_deleted" x="349" y="0"/>
-</item>
-<item historyLabel="makejinni" index="2">
-<position info="not_deleted" x="445" y="0"/>
-</item>
-<item historyLabel="pshell.pl" index="4">
-<position info="not_deleted" x="1267" y="0"/>
-</item>
-<item historyLabel="Javafier.java" index="5">
-<position info="not_deleted" x="3978" y="0"/>
-</item>
-<item historyLabel="Top.java" index="6">
-<position info="not_deleted" x="8771" y="0"/>
-</item>
-<item historyLabel="Init.java" index="7">
-<position info="not_deleted" x="979" y="0"/>
-</item>
-<item historyLabel="makejinni" index="2">
+<item historyLabel="Init.java" index="1">
 <position/>
 </item>
-<item historyLabel="Graph.java" index="8">
-<position info="not_deleted" x="10267" y="0"/>
-</item>
-<item historyLabel="Init.java" index="9">
-<position/>
-</item>
-<item historyLabel="Init.java" index="9">
-<position info="not_deleted" x="1766" y="2"/>
-</item>
-<item historyLabel="Init.java" index="9">
-<position/>
-</item>
-<item historyLabel="Init.java" index="9">
-<position/>
-</item>
-<item historyLabel="Init.java" index="9">
-<position info="not_deleted" x="1062" y="0"/>
-</item>
-<item historyLabel="Init.java" index="9">
-<position/>
-</item>
-<item historyLabel="Top.java" index="10">
+<item historyLabel="Top.java" index="2">
 <position info="not_deleted" x="3278" y="0"/>
 </item>
-<item historyLabel="Top.java" index="10">
+<item historyLabel="Top.java" index="2">
 <position info="not_deleted" x="8408" y="0"/>
 </item>
-<item historyLabel="Init.java" index="9">
+<item historyLabel="Init.java" index="1">
 <position info="not_deleted" x="1766" y="2"/>
 </item>
-<item historyLabel="LogicEngine.java" index="11">
+<item historyLabel="LogicEngine.java" index="3">
 <position info="not_deleted" x="23133" y="0"/>
 </item>
-<item historyLabel="LogicEngine.java" index="11">
+<item historyLabel="LogicEngine.java" index="3">
 <position info="not_deleted" x="4577" y="15"/>
 </item>
-<item historyLabel="LogicEngine.java" index="11">
+<item historyLabel="LogicEngine.java" index="3">
 <position info="not_deleted" x="4631" y="33"/>
 </item>
-<item historyLabel="Init.java" index="9">
+<item historyLabel="Init.java" index="1">
 <position info="not_deleted" x="457" y="0"/>
 </item>
-<item historyLabel="Init.java" index="9">
+<item historyLabel="Init.java" index="1">
 <position info="not_deleted" x="792" y="0"/>
 </item>
-<item historyLabel="Init.java" index="9">
+<item historyLabel="Init.java" index="1">
 <position info="not_deleted" x="1653" y="0"/>
 </item>
-<item historyLabel="Init.java" index="9">
+<item historyLabel="Init.java" index="1">
 <position info="not_deleted" x="1876" y="4"/>
 </item>
-<item historyLabel="Init.java" index="9">
+<item historyLabel="Init.java" index="1">
 <position info="not_deleted" x="128" y="0"/>
 </item>
-<item historyLabel="Init.java" index="9">
+<item historyLabel="Init.java" index="1">
 <position info="not_deleted" x="1766" y="2"/>
 </item>
-<item historyLabel="LogicEngine.java" index="11">
+<item historyLabel="LogicEngine.java" index="3">
 <position info="not_deleted" x="4577" y="15"/>
 </item>
-<item historyLabel="LogicEngine.java" index="11">
+<item historyLabel="LogicEngine.java" index="3">
 <position info="not_deleted" x="4631" y="33"/>
 </item>
-<item historyLabel="makejinni" index="2">
+<item historyLabel="makejinni" index="0">
 <position info="not_deleted" x="1628" y="0"/>
 </item>
-<item historyLabel="README.txt" index="12">
+<item historyLabel="README.txt" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="README.txt" index="5">
+<position info="not_deleted" x="1164" y="0"/>
+</item>
+<item historyLabel="makejinni" index="0">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="Top.java" index="6">
+<position info="not_deleted" x="8408" y="0"/>
+</item>
+<item historyLabel="Init.java" index="7">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="RenSetWalker.java" index="8"/>
+<item historyLabel="Init.java" index="7">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="makejinni" index="0">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="Init.java" index="7">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="Init.java" index="7">
+<position info="not_deleted" x="470" y="0"/>
+</item>
+<item historyLabel="Init.java" index="7">
+<position/>
+</item>
+<item historyLabel="pshell.pl" index="9">
+<position info="not_deleted" x="378" y="0"/>
+</item>
+<item historyLabel="Init.java" index="7">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="makejinni" index="0">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="Top.java" index="6">
+<position info="not_deleted" x="8408" y="0"/>
+</item>
+<item historyLabel="Init.java" index="7">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="Javafier.java" index="10">
+<position info="not_deleted" x="481" y="8"/>
+</item>
+<item historyLabel="README.txt" index="11">
+<position info="not_deleted" x="554" y="0"/>
+</item>
+<item historyLabel="bREADME.txt" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="README.txt" index="13">
-<position info="not_deleted" x="1164" y="0"/>
-</item>
-<item historyLabel="makejinni" index="2">
-<position info="not_deleted" x="890" y="0"/>
-</item>
-<item historyLabel="Top.java" index="14">
-<position info="not_deleted" x="8408" y="0"/>
-</item>
-<item historyLabel="Init.java" index="15">
-<position info="not_deleted" x="468" y="0"/>
-</item>
-<item historyLabel="RenSetWalker.java" index="16"/>
-<item historyLabel="Init.java" index="15">
-<position info="not_deleted" x="468" y="0"/>
-</item>
-<item historyLabel="makejinni" index="2">
-<position info="not_deleted" x="890" y="0"/>
-</item>
-<item historyLabel="Init.java" index="15">
-<position info="not_deleted" x="468" y="0"/>
-</item>
-<item historyLabel="Init.java" index="15">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="Init.java" index="15">
 <position/>
 </item>
-<item historyLabel="pshell.pl" index="17">
-<position info="not_deleted" x="378" y="0"/>
+<item historyLabel="aREADME.txt" index="14">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Init.java" index="15">
-<position info="not_deleted" x="183" y="0"/>
+<item historyLabel="README.txt" index="13">
+<position/>
 </item>
-<item historyLabel="makejinni" index="2">
-<position info="not_deleted" x="890" y="0"/>
+<item historyLabel="aREADME.txt" index="14">
+<position info="not_deleted" x="2484" y="1071"/>
 </item>
-<item historyLabel="Top.java" index="14">
-<position info="not_deleted" x="8408" y="0"/>
+<item historyLabel="README.txt" index="13">
+<position/>
 </item>
-<item historyLabel="Init.java" index="15">
-<position info="not_deleted" x="183" y="0"/>
+<item historyLabel="build.pl" index="15">
+<position info="not_deleted" x="224" y="0"/>
 </item>
-<item historyLabel="Javafier.java" index="18">
-<position info="not_deleted" x="481" y="8"/>
+<item historyLabel="README.txt" index="11">
+<position/>
 </item>
-<item active="true" historyLabel="README.txt" index="19">
-<position info="not_deleted" x="126" y="0"/>
+<item historyLabel="README.txt" index="13">
+<position/>
+</item>
+<item historyLabel="pbug.pl" index="16">
+<position/>
+</item>
+<item historyLabel="README.txt" index="13">
+<position/>
+</item>
+<item historyLabel="Javafier.java" index="17">
+<position info="not_deleted" x="741" y="0"/>
+</item>
+<item historyLabel="README.txt" index="13">
+<position/>
+</item>
+<item historyLabel="Javafier.java" index="17">
+<position info="not_deleted" x="741" y="0"/>
+</item>
+<item historyLabel="README.txt" index="13">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item active="true" historyLabel="Javafier.java" index="17">
+<position info="not_deleted" x="741" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -425,6 +426,30 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README.txt" tooltip="MainProlog/bin/README.txt">
+<persistable path="/MainProlog/bin/README.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" name="pbug.pl" tooltip="MainProlog/tests/pbug.pl">
+<persistable path="/MainProlog/tests/pbug.pl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="makedoc.bat" tooltip="PROLOG3D/makedoc.bat">
+<persistable path="/PROLOG3D/makedoc.bat"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" name="build.pl" tooltip="MainProlog/build/build.pl">
+<persistable path="/MainProlog/build/build.pl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="LICENSING.html" tooltip="MainProlog/bin/LICENSING.html">
+<persistable path="/MainProlog/bin/LICENSING.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="aREADME.txt" tooltip="MainProlog/bin/aREADME.txt">
+<persistable path="/MainProlog/bin/aREADME.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="bREADME.txt" tooltip="MainProlog/bin/bREADME.txt">
+<persistable path="/MainProlog/bin/bREADME.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="JinniUserGuide.html" tooltip="MainProlog/bin/JinniUserGuide.html">
+<persistable path="/MainProlog/bin/JinniUserGuide.html"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README.txt" tooltip="MainProlog/README.txt">
 <persistable path="/MainProlog/README.txt"/>
 </file>
@@ -439,36 +464,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JMain.java" tooltip="MainProlog/build/JMain.java">
 <persistable path="/MainProlog/build/JMain.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" name="build.pl" tooltip="MainProlog/build/build.pl">
-<persistable path="/MainProlog/build/build.pl"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wam.java" tooltip="MainProlog/prolog/kernel/Wam.java">
-<persistable path="/MainProlog/prolog/kernel/Wam.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Init.java" tooltip="MainProlog/prolog/kernel/Init.java">
-<persistable path="/MainProlog/prolog/kernel/Init.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Top.java" tooltip="MainProlog/prolog/kernel/Top.java">
-<persistable path="/MainProlog/prolog/kernel/Top.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.cs3.pdt.internal.editors.PLEditor" name="sys.pl" tooltip="MainProlog/psrc/kernel/sys.pl">
-<persistable path="/MainProlog/psrc/kernel/sys.pl"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="makemainprolog" tooltip="MainProlog/build/makemainprolog">
-<persistable path="/MainProlog/build/makemainprolog"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="makejinni" tooltip="MainProlog/build/makejinni">
-<persistable path="/MainProlog/build/makejinni"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Javafier.java" tooltip="MainProlog/prolog/core/Javafier.java">
-<persistable path="/MainProlog/prolog/core/Javafier.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogicConnector.java" tooltip="MainProlog/prolog/core/LogicConnector.java">
-<persistable path="/MainProlog/prolog/core/LogicConnector.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintCanvas3D.java" tooltip="PROLOG3D/prolog3d/PrintCanvas3D.java">
-<persistable path="/PROLOG3D/prolog3d/PrintCanvas3D.java"/>
 </file>
 </mruList>
 </workbench>

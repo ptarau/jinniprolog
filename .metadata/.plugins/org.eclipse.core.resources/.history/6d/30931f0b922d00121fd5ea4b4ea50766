@@ -2,8 +2,6 @@
   - handles the (re)building of Prolog with various Java and .NET compilers
   - requires BinProlog - until Prolog gets around Java's 
     crippled process control limitations 
-    
-    UNTESTED since 2006
 */
 
 % CONSTANTS

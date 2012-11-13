@@ -14,23 +14,24 @@ on OS X + Linux/Unix or Windows.
 The script makejinni in directory build regenerates 
 the system by compiling various Java and Prolog components.
 
-Here is the directory for MainProlog structure.
+Here is the directory structure (* marks components
+only available with Source Edition).
 
 +---bin <=========== START HERE TO WORK WITH JINNI
 |   +---agentlib => agents
 ¦   +---classlib => Object Oriented Prolog classes
 ¦   +---progs    => classic Prolog programs
 ¦   +---vprogs   => visual programs
-+---build  scripts to generate various components
-+---doc  
++---build * scripts to generate various components
++---doc * 
 |   +---jdoc     ==> Java class documentation
 ¦   +---papers   ==> Related papers and projects
 ¦   +---tutorial ==> Introduction to Prolog
-+---prolog  JAVA SOURCES
-¦   +---kernel 
-|   +---core 
-+---psrc  PROLOG SOURCES
-+---tests 
++---prolog * JAVA SOURCES
+¦   +---kernel *
+|   +---core *
++---psrc * PROLOG SOURCES
++---tests *
 
 The distribution contains a few related projects, untested
 recently but most likely easy to get running.

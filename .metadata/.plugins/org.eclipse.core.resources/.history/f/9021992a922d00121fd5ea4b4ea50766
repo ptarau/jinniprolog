@@ -9,7 +9,7 @@ to_ssi_dir:-ssi_dir(D),cd(D).
 to_cgi_dir:-cgi_dir(D),cd(D).
 
 /*
- Internet Programming Toolkit
+ BinNet Internet Programming Toolkit
  Copyright (C) Paul Tarau 1999
 
  Parsing/String processing tools
