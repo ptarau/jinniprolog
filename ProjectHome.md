@@ -1,0 +1,1 @@
+Jinni Prolog is a Java-based Prolog compiler and runtime system written by Paul Tarau, with objects, agents, multi-threading, networking, remote predicate calls, GUI, 2D and 3D graphics.
